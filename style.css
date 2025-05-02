@@ -1,0 +1,85 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    margin: -10px;
+}
+ .headerLogo {
+    font-size: 24px;
+    margin-left: 360px;
+    color: #F9FAF8;
+ }
+
+ .headerLink {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 360px;
+ }
+
+ .headerLink h2 {
+    padding: 8px 24px;
+    font-size: 16px;
+    color: #E5E7Eb;
+    font-weight: 500;
+ }
+
+ .hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin: -10px;
+    padding: 124px 360px;
+ }
+
+.herotext {
+    margin: 144px;
+
+}
+
+ .heroText h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 2px;
+    margin-top: -60px;
+ }
+
+ .heroText p {
+    font-size: 18px;
+    color: #E5E7Eb;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 8px;
+ }
+
+ .heroText button {
+    font-size: 24px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px 24px;
+    margin-top: 0px;
+    font-weight: 900;
+ }
+ .heroImage {
+    background-color: #aaaaaa;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: -10px;
+    flex: 1 0 auto;
+ }
+ .image {
+    padding: 120px 225px;
+    font-size: 18px;
+ }
